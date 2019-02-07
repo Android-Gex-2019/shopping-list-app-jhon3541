@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <!--Scrollable content here-->
+        <LinearLayout
+            android:id="@+id/buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/button_bread"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+
+                android:onClick="returnReply"
+                android:tag="@string/bread"
+                android:text="@string/bread"
+                android:textSize="36sp"
+                tools:layout_width="match_parent" />
+
+            <Button
+                android:id="@+id/button_milk"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+
+                android:onClick="returnReply"
+                android:tag="@string/milk"
+                android:text="@string/milk"
+                android:textSize="36sp"
+                tools:layout_width="match_parent" />
+
+            <Button
+                android:id="@+id/button_jam"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+
+                android:onClick="returnReply"
+                android:text="@string/jam"
+                android:tag="@string/jam"
+                android:textSize="36sp"
+                tools:layout_width="match_parent"
+                />
+
+            <Button
+                android:id="@+id/button_juice"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+
+                android:onClick="returnReply"
+                android:text="@string/juice"
+                android:tag="@string/juice"
+                android:textSize="36sp"
+                tools:layout_width="match_parent"
+                />
+
+            <Button
+                android:id="@+id/button_eggs"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+
+                android:onClick="returnReply"
+                android:text="@string/eggs"
+                android:tag="@string/eggs"
+                android:textSize="36sp"
+                tools:layout_width="match_parent"
+                />
+
+            <Button
+                android:id="@+id/button_yogurt"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+
+                android:onClick="returnReply"
+                android:text="@string/yogurt"
+                android:tag="@string/yogurt"
+                android:textSize="36sp"
+                tools:layout_width="match_parent"
+                />
+
+            <Button
+                android:id="@+id/button_orange"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+
+                android:onClick="returnReply"
+                android:text="@string/orange"
+                android:tag="@string/orange"
+                android:textSize="36sp"
+                tools:layout_width="match_parent"
+                />
+
+            <Button
+                android:id="@+id/button_banana"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+
+                android:onClick="returnReply"
+                android:text="@string/banana"
+                android:tag="@string/banana"
+                android:textSize="36sp"
+                tools:layout_width="match_parent"
+                />
+
+            <Button
+                android:id="@+id/button_apple"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+
+                android:onClick="returnReply"
+                android:text="@string/apple"
+                android:tag="@string/apple"
+                android:textSize="36sp"
+                tools:layout_width="match_parent"
+                />
+
+            <Button
+                android:id="@+id/button_lime"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+
+                android:onClick="returnReply"
+                android:text="@string/lime"
+                android:tag="@string/lime"
+                android:textSize="36sp"
+                tools:layout_width="match_parent"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

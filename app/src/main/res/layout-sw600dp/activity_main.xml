@@ -30,13 +30,13 @@
 
     <Button
         android:id="@+id/buton_add"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
         android:layout_marginStart="8dp"
         android:layout_marginBottom="8dp"
         android:onClick="launchSecondActivity"
         android:text="@string/button_add"
-        android:textSize="30sp"
+        android:textSize="70dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_width="0dp" />
