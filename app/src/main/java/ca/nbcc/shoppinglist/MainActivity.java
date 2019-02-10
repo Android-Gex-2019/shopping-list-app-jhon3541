@@ -65,13 +65,13 @@ public class MainActivity extends AppCompatActivity {
         // Restore the saved state.
         // See onSaveInstanceState() for what gets saved.
         if (savedInstanceState != null) {
-            if (savedInstanceState != null) {
 
-                //delete text views
+
+                //delete text views and load the shopping list
                 shoppingList=(ShoppingList)savedInstanceState.getSerializable(SecondActivity.EXTRA_ITEM);
                 //refill Shopping list
                 fillShoppingList();
-            }
+
         }
 
     }

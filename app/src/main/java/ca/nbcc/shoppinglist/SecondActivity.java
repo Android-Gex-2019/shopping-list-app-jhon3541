@@ -76,6 +76,7 @@ public class SecondActivity extends AppCompatActivity {
 
     }
 
+    //Up-navigation implementation, taken from android website
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId()== android.R.id.home) {
             Intent intent = NavUtils.getParentActivityIntent(this);
